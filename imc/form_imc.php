@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/style.css">
     <title>IMC</title>
 </head>
-<body>
+<body class="imc-page">
 <h1>CALCULAR IMC</h1>
 <p>a fórmula: IMC = PESO/(ALTURA*ALTURA).</p><br>
 <form action="resultado_imc.php" method="post">
