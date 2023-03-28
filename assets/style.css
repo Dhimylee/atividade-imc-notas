@@ -8,12 +8,15 @@
 body {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background-color: #d3c5e8;
   color: white;
 }
 .container-body {
   display: flex;
-  padding-top: 10%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -39,10 +42,19 @@ body {
   cursor: pointer;
   padding: 10px 10px;
   background: linear-gradient(90deg, rgb(197, 80, 243)0%, rgb(173, 84, 232)100%);
-  border-radius: 8px;
+  border-radius: 4px;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
+}
+input[type=submit] {
+  background-color: #692000;
+  border: none;
+  color: white;
+  padding: 6px 22px;
+  text-decoration: none;
+  margin: 10px 2px;
+  cursor: pointer;
 }
 @media screen and (max-width: 767px) {
   .conteudo {
@@ -63,6 +75,71 @@ body {
 }
 
 /* IMC */
-.imc-page {
-  background: url(imgs.png),linear-gradient(-30deg, red, blue);
+.container-imc{
+  background-color: cornsilk;
+  text-align: center;
+  padding: 60px;
+  color: #692000;
+  line-height: 32px;
+  border-radius: 5px;
 }
+.imc-page {
+  background: url("imgs.png");
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 500px;
+  margin: 30px auto;
+}
+
+td,
+th {
+  padding: 16px 24px;
+  text-align: left;
+}
+
+th {
+  background-color: #692000;
+  width: 25%;
+  color: #fff;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+a.voltar {
+  color: #692000;
+  text-decoration: none;
+  font-size: 15px;
+}
+@media screen and (max-width: 575px) {
+  .container-imc { padding: 20px; }
+  table {
+    width: 400px;
+  }
+}  
+
+/* NOTAS */
+.notas-page {
+  background: url(notes.jpeg);
+  background-size: 35%;
+}
+.container-notas{
+  background-color: #fdf7d3;
+  text-align: center;
+  padding: 60px;
+  color: #eb087b;
+  line-height: 32px;
+  border-radius: 10px;
+}
+a.voltar-notas { color: #eb087b; }
