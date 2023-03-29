@@ -34,7 +34,7 @@
                 <table>
                     <tr>
                         <th>Média</th>
-                        <th>Situaçãp</th>
+                        <th>Situação</th>
                     </tr>
                     <tr>
                         <td>Abaixo de 4,0</td>
@@ -57,7 +57,7 @@
                     <a href="../imc/form_imc.php" class="voltar">Calcular IMC</a>
                 </div>
                 <div class="btn-topo">
-                    <a href="form_notas.php" class="voltar">Voltar</a>
+                    <a href="/form_notas.php" class="voltar">Voltar</a>
                 </div>
         </div>
      </body>
